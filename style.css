@@ -1,0 +1,31 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+#navbar{
+   box-shadow: 5px 5px 20px rgba(255, 0, 0, 0.5);
+}
+
+.nav_menu:hover{
+   color: red!important; 
+   border-bottom: 2px solid white;
+}
+
+#banner{
+  background-image: url(/images/party3.jpg);
+  height:800px;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#contact{
+  background: linear-gradient(
+    to right,
+    coral 0%,
+    coral 55%,
+    white 55%,
+    gray 100%
+  );
+}
+
+@media screen and(max-width:582){
+  .image{
+    justify-content: center;
+  }
+} 
